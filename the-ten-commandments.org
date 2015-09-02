@@ -1,0 +1,93 @@
+* The Ten Commandments
+
+** The First Commandment
+When recurring on a list of atoms, lat, ask two questions about it:
+(null? lat) and else. When recurring on a number, n, ask two questions
+about it: (zero? n) and else. When recurring on a list of
+S-expressions, I, ask three question about it: (null? I), (atom? (car
+I)), and else.
+
+<2015-09-02 Wed 18:37>
+# Points at how you can breakdown a lat and the pertinent questions
+# that you should ask.
+
+** The Second Commandment
+
+Use cons to build lists.
+
+<2015-09-02 Wed 18:39>
+# Basic fact. I wonder what else can be used to construct lists.
+
+** The Third Commandment
+
+ When building a list, describe the first typical element, and then
+ cons it onto the natural recursion.
+
+ <2015-09-02 Wed 18:39>
+ # How to divide and conquer. The first step.
+
+** The Fourth Commandment
+
+ Always change at least one argument while recurring. When recurring on
+ a list of atoms, lat, use (cdr lat). When recurring on a number, n,
+ use (sub1 n). And when recurring on a list of S-expressions, I, use
+ (car I) and (cdr I) if neither (null? I) nor (atom? (car I)) are true.
+ It must be changed to be closer to termination. The changing
+ argument must be tested in the termination condition: when using cdr,
+ test termination with null? and when using sub1, test termination with
+ zero?.
+
+ <2015-09-02 Wed 18:42>
+ # How to divide and conquer. The first step.
+
+** The Fifth Commandment
+
+ When building a value with + ,always use 0 for the value of the
+ terminating line, for adding 0 does not change the value of an
+ addition. When building a value with x, always use 1 for the value of
+ the terminating line, for multiplying by 1 does not change the value
+ of a multiplication.  When building a value with cons, always consider
+ 0 for the value of the terminating line.
+
+ <2015-09-02 Wed 18:43>
+ # Pay heed at the nature of element that is being operated on. And
+ # also the idea of an idempotent element (?) is detailed. 0 for
+ # addition, 1 for multiplication.
+
+** The Sixth Commandment
+
+ Simplify only after the function is correct.
+
+ <2015-09-02 Wed 18:45>
+ # Note on refactoring.
+
+** The Seventh Commandment
+
+ Recur on the subparts that are of the same nature:
+ - On the sublists of a list.
+ - On the subexpressions of an arithmetic expression.
+
+ <2015-09-02 Wed 18:46>
+ # Importance of consistency (?)
+
+** The Eighth Commandment
+
+ Use help functions to abstract from representations.
+
+ <2015-09-02 Wed 18:47>
+ # Use of abstraction. And probably there is an idea of imposing an
+ # invariant which results from this.
+
+** The Ninth Commandment
+
+ Abstract common patterns with a new function.
+
+ <2015-09-02 Wed 18:49>
+ # Another importance of abstraction.
+
+** The Tenth Commandment
+
+ Build functions to collect more than one value at a time.
+
+ <2015-09-02 Wed 18:49>
+ # Exploit computers strength to manage collections.

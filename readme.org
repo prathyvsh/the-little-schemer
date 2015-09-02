@@ -1,0 +1,18 @@
+* The Little Schemer
+
+Daniel P. Friedman and Matthias Felleisen
+
+
+* Readme
+  I'm reading this book after completing HTDP. So consider my writings
+  would have the slant of someone who is looking at it with the
+  perspective of having had some experience with Lisps before.
+
+* Log
+
+*** 2 September 2015
+
+    :LOGBOOK:
+    CLOCK: [2015-09-02 Wed 18:33]--[2015-09-02 Wed 18:58] =>  0:25
+    :END:
+
