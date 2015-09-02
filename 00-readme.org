@@ -13,6 +13,8 @@ Daniel P. Friedman and Matthias Felleisen
 *** 2 September 2015
 
     :LOGBOOK:
-    CLOCK: [2015-09-02 Wed 18:33]--[2015-09-02 Wed 18:58] =>  0:25
+    CLOCK: [2015-09-02 Wed 19:12]--[2015-09-02 Wed 19:42] =>  0:30
+
+    CLOCK: [2015-09-02 Wed 18:33]--[2015-09-02 Wed 19:03] =>  0:30
     :END:
 

@@ -38,4 +38,3 @@ I'm guessing that the Lisp modifying Lisp that is mentioned here is
 the macro feature but not sure what cross-referencers constructed out
 of it are.
 
-
