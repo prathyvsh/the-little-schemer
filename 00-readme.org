@@ -9,12 +9,28 @@ Daniel P. Friedman and Matthias Felleisen
   perspective of having had some experience with Lisps before.
 
 * Log
+  
+** Chapterwise
+   
+Frontmatter - 2
+Chapter 1 - 1
+
+
+
+
+** Daily
 
 *** 2 September 2015
-
     :LOGBOOK:
+    CLOCK: [2015-09-02 Wed 19:42]--[2015-09-02 Wed 20:12] =>  0:30
+    7
+
     CLOCK: [2015-09-02 Wed 19:12]--[2015-09-02 Wed 19:42] =>  0:30
+    3
 
     CLOCK: [2015-09-02 Wed 18:33]--[2015-09-02 Wed 19:03] =>  0:30
+    Front Matter
     :END:
 
+
+** Weekly
