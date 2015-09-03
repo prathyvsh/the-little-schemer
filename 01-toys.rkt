@@ -190,4 +190,29 @@
 ;; => (atom? '(low sweet))
 ;; => #f
 
+(eq? 'Harry 'Harry)
+;; => #t
 
+(eq? 'margarine 'butter)
+;; => #f
+
+;; eq? takes two arguments which are non-numeric atoms.
+
+(eq? '() '(strawberry)) ; is invalid
+;; But in practice lists may be arguments as well.
+;; => #f
+
+(eq? 6 7) ; is invalid as it needs non-numeric atoms.
+
+(eq? (first '(Mary had a little lamb chop)) 'Mary)
+;; => #t
+
+
+(eq? (rest '(soured milk)) 'milk)
+;; (eq? '(milk) 'milk)
+;; => #f
+
+(define l '(beans beans we need jelly beans))
+(eq? (first l) (first (rest l)))
+;; => #t
+;; Because it compares the first and second atoms in the list.

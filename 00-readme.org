@@ -16,7 +16,10 @@ Daniel P. Friedman and Matthias Felleisen
 *** 3 September 2015
     :LOGBOOK:
 
-    CLOCK: [2015-09-03 Thu 12:36]--[2015-09-03 Thu 13:01] =>  0:25
+    CLOCK: [2015-09-03 Thu 15:39]--[2015-09-03 Thu 16:09] =>  0:30
+    18
+
+    CLOCK: [2015-09-03 Thu 12:36]--[2015-09-03 Thu 13:06] =>  0:30
     11
 
     :END:
@@ -40,9 +43,9 @@ Daniel P. Friedman and Matthias Felleisen
    
 Frontmatter - 2
 
-Chapter 1: Toys - 1
+Chapter 1: Toys - 2.5
 
-Chapter 2: Do It, Do It Again, and Again, and Again ...
+Chapter 2: Do It, Do It Again, and Again, and Again ... - 
 
 Chapter 3: Cons the Magnificent
 
