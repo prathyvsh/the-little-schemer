@@ -4,24 +4,26 @@ Daniel P. Friedman and Matthias Felleisen
 
 
 * Readme
+
   I'm reading this book after completing HTDP. So consider my writings
   would have the slant of someone who is looking at it with the
   perspective of having had some experience with Lisps before.
 
 * Log
-  
-** Chapterwise
-   
-Frontmatter - 2
-Chapter 1 - 1
-
-
-
 
 ** Daily
 
+*** 3 September 2015
+    :LOGBOOK:
+
+    CLOCK: [2015-09-03 Thu 12:36]--[2015-09-03 Thu 13:01] =>  0:25
+    11
+
+    :END:
+
 *** 2 September 2015
     :LOGBOOK:
+
     CLOCK: [2015-09-02 Wed 19:42]--[2015-09-02 Wed 20:12] =>  0:30
     7
 
@@ -30,7 +32,43 @@ Chapter 1 - 1
 
     CLOCK: [2015-09-02 Wed 18:33]--[2015-09-02 Wed 19:03] =>  0:30
     Front Matter
+
     :END:
 
 
-** Weekly
+** Chapterwise
+   
+Frontmatter - 2
+
+Chapter 1: Toys - 1
+
+Chapter 2: Do It, Do It Again, and Again, and Again ...
+
+Chapter 3: Cons the Magnificent
+
+Chapter 4: Numbers Games
+
+Chapter 5: *Oh My Gawd(: It's Full of Stairs
+
+Chapter 6: Shadows
+
+Chapter 7: Friends and Relations
+
+Chapter 8: Lambda the Ultimate
+
+Chapter 9: ... and Again, and Again, and Again, ...
+
+Chapter 10: What is the Value of All of This?
+
+Intermission
+
+
+
+
+
+
+** Estimate
+
+<2015-09-02 Wed 20:13> - 350 Pomodoros
+<2015-09-03 Thu 13:05> - At the current rate looks like there's a
+chance to end this in 50 Pomodoros. But very unlikely.

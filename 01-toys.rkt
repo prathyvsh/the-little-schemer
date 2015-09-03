@@ -91,10 +91,103 @@
 
 ;; (rest 'hotdogs) and (rest '()) is invalid.
 
-
-
-
-
-;; The Law of Car
+;; The Law of Cdr
 ;; The primitive car is defined only for non-empty lists. The cdr of
 ;; any non-empty list is always another list.
+
+(first (rest '((b) (x y) ((c)))))
+;; => '(x y)
+
+(rest (rest '((b) (x y) ((c)))))
+;; => '(((c)))
+
+;; (rest (first '(a (b (c)) d))) is invalid.
+;; Since (first '(a (b (c)) d)) is 'a and (rest 'a) is invalid.
+
+;; first and rest always takes in non-empty lists as arguments.
+
+(cons 'peanut '(butter and jelly))
+;; => '(peanut butter and jelly)
+
+(cons '(banana and) '(peanut butter and jelly))
+;; => '((banana and) (peanut butter and jelly))
+
+(cons '((help) this) '(is very ((hard) to learn)))
+;; => '(((help) this is very (hard) to learn))
+
+;; cons takes two arguments: first one is any S-exp and second is any list.
+
+(cons '(a b (c)) '())         ; This one was a bit tricky since I coasted
+;; => '((a b (c)))            ; along almost mindlessly so far.
+
+
+(cons 'a '())
+;; => '(a)
+
+;; (cons '((a b c)) 'b) is invalid since 'b is not a list.
+
+;; But (cons 'a 'b) works for any value.
+
+(first (cons 'a 'b)) ; => 'a
+
+(rest (cons 'a '(b))) ; => '(b)
+
+;; (cons 'a 'b) is invalid since 'b is not a list.
+
+;; The Law of Cons
+;; The primitive cons takes two arguments.
+;; The second argument to cons must be a list.
+;; The result is a list.
+
+(cons 'a (first '((b) c d)))
+;; => (cons 'a '(b))
+;; => '(a b)
+
+(cons 'a (rest '((b) c d)))
+;; => (cons 'a '(c d))
+;; => '(a c d)
+
+(and (null? '()) (null? (quote ())))
+;; => #t
+
+(null? '(a b c))
+;; => #f
+
+(null? 'spaghetti)
+;; null? is only valid for lists but returns false for any presence of value.
+;; I guess this is called nil punning.
+;; => #f
+
+;; The Law of Null?
+;; The primitive null? is defined only for lists.
+
+(define atom? (lambda (x) (and (not (pair? x)) (not (null? x)))))
+
+(atom? 'harry)
+;; => #t
+
+(atom? '(Harry had a heap of apples))
+;; => #f
+
+;; atom? takes one argument and it can be any S-exp.
+
+(atom? (first '(Harry had a heap of apples)))
+;; => #t
+
+(atom? (rest '(Harry had a heap of apples)))
+;; => #f
+
+(atom? (rest '(Harry)))
+;; => #f since '() is not an atom
+
+(atom? (first (rest '(swing low sweet cherry oat))))
+;; => (atom? (first '(low sweet cherry oat)))
+;; => (atom? 'low)
+;; => #t
+
+(atom? (first (rest '(swing (low sweet) cherry oat))))
+;; => (atom? (first '((low sweet) cherry oat)))
+;; => (atom? '(low sweet))
+;; => #f
+
+
