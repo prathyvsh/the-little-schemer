@@ -12,6 +12,20 @@ Daniel P. Friedman and Matthias Felleisen
 * Log
 
 ** Daily
+#+BEGIN: clocktable :maxlevel 2 :scope subtree
+#+CAPTION: Clock summary at [2015-09-04 Fri 22:09]
+| Headline     | Time   |      |
+|--------------+--------+------|
+| *Total time* | *2:30* |      |
+|--------------+--------+------|
+| \_  Daily    |        | 2:30 |
+#+END:
+
+*** 4 September 2015
+    :LOGBOOK:
+    CLOCK: [2015-09-04 Fri 21:53]
+    :END:
+
 
 *** 3 September 2015
     :LOGBOOK:
@@ -23,6 +37,7 @@ Daniel P. Friedman and Matthias Felleisen
     11
 
     :END:
+
 
 *** 2 September 2015
     :LOGBOOK:
@@ -45,9 +60,9 @@ Frontmatter - 2
 
 Chapter 1: Toys - 2.5
 
-Chapter 2: Do It, Do It Again, and Again, and Again ... - 
+Chapter 2: Do It, Do It Again, and Again, and Again ... - 1
 
-Chapter 3: Cons the Magnificent
+Chapter 3: Cons the Magnificent - 0.5
 
 Chapter 4: Numbers Games
 
