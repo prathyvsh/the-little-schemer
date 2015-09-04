@@ -1,31 +1,47 @@
-* The Little Schemer
-
+* The Little Schemer 
 Daniel P. Friedman and Matthias Felleisen
 
 
 * Readme
-
   I'm reading this book after completing HTDP. So consider my writings
   would have the slant of someone who is looking at it with the
-  perspective of having had some experience with Lisps before.
+  perspective of having had some experience with Lisps before. This
+  also means, I'm noticing, that I rush through some of the finger
+  exercises as I'm all too familiar constructing functions of this
+  type already. This was readily apparent in the first few chapters
+  where writing the member? and rember checks were too easy to pull off.
+  
+I'm not sure if it's a subjective opinion, but so far it feels like
+HTDP is a refined version of Little Schemer. This is felt in the way
+the topics are introduced. TLS is introducing it in a first principles
+manner and leaving a lot of thought and figuring out how to work with
+the pieces to the programmer whereas, I felt HTDP recipes went a step
+further in defining the patterns that help you operate with the pieces.
+
+This thinking was further solidified as the commandments are
+increasingly getting similar to the design recipes which I find to be
+much more elaborate and helpful towards devising the recursion patterns.
 
 * Log
 
 ** Daily
 #+BEGIN: clocktable :maxlevel 2 :scope subtree
-#+CAPTION: Clock summary at [2015-09-04 Fri 22:09]
+#+CAPTION: Clock summary at [2015-09-04 Fri 22:55]
 | Headline     | Time   |      |
 |--------------+--------+------|
-| *Total time* | *2:30* |      |
+| *Total time* | *3:30* |      |
 |--------------+--------+------|
-| \_  Daily    |        | 2:30 |
+| \_  Daily    |        | 3:30 |
 #+END:
 
 *** 4 September 2015
     :LOGBOOK:
-    CLOCK: [2015-09-04 Fri 21:53]
-    :END:
+    CLOCK: [2015-09-04 Fri 22:27]--[2015-09-04 Fri 22:57] =>  0:30
+    45
 
+    CLOCK: [2015-09-04 Fri 21:53]--[2015-09-04 Fri 22:23] =>  0:30
+    34
+    :END:
 
 *** 3 September 2015
     :LOGBOOK:
@@ -37,7 +53,6 @@ Daniel P. Friedman and Matthias Felleisen
     11
 
     :END:
-
 
 *** 2 September 2015
     :LOGBOOK:
@@ -62,7 +77,7 @@ Chapter 1: Toys - 2.5
 
 Chapter 2: Do It, Do It Again, and Again, and Again ... - 1
 
-Chapter 3: Cons the Magnificent - 0.5
+Chapter 3: Cons the Magnificent - 1.5
 
 Chapter 4: Numbers Games
 
@@ -80,13 +95,20 @@ Chapter 10: What is the Value of All of This?
 
 Intermission
 
-
-
-
-
-
 ** Estimate
 
-<2015-09-02 Wed 20:13> - 350 Pomodoros
+<2015-09-02 Wed 20:13> - 350 Pomodoros <- <2015-09-04 Fri 22:58> This
+was seemingly wrong. I thought this to be another HTDP but looks like
+it's much smaller and almost as fundamental.
+
 <2015-09-03 Thu 13:05> - At the current rate looks like there's a
 chance to end this in 50 Pomodoros. But very unlikely.
+
+<2015-09-04 Fri 22:20> - If the rest of the chapters are as easy as
+the current ones, then I'm looking at a completion time of 75-100 Pomodoros.
+
+<2015-09-04 Fri 22:57> - Current calculation shows that only 20
+Pomodoros remains but that's only if I maintain the current breezing
+rate which is only possible because I'm familiar with the current
+recursion patterns, I have to see how quickly this escalates and to where.
+
