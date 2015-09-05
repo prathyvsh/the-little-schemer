@@ -34,6 +34,7 @@
 
 ;; How many S-expressions are in the list?
 (length '(how are you doing so far))
+
 ;; => 6
 ;; But not sure if I should include the whole expression
 ;; itself as another S-exp.

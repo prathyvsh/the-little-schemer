@@ -1,7 +1,9 @@
 * The Little Schemer 
-Daniel P. Friedman and Matthias Felleisen
+
+  Daniel P. Friedman and Matthias Felleisen
 
 * Readme
+
   I'm reading this book after completing HTDP. So consider my writings
   would have the slant of someone who is looking at it with the
   perspective of having had some experience with Lisps before. This
@@ -10,49 +12,51 @@ Daniel P. Friedman and Matthias Felleisen
   type already. This was readily apparent in the first few chapters
   where writing the member? and rember checks were too easy to pull off.
   
-I'm not sure if it's a subjective opinion, but so far it feels like
-HTDP is a refined version of Little Schemer. This is felt in the way
-the topics are introduced. TLS is introducing it in a first principles
-manner and leaving a lot of thought and figuring out how to work with
-the pieces to the programmer whereas, I felt HTDP recipes went a step
-further in defining the patterns that help you operate with the pieces.
+  I'm not sure if it's a subjective opinion, but so far it feels like
+  HTDP is a refined version of Little Schemer. This is felt in the way
+  the topics are introduced. TLS is introducing it in a first principles
+  manner and leaving a lot of thought and figuring out how to work with
+  the pieces to the programmer whereas, I felt HTDP recipes went a step
+  further in defining the patterns that help you operate with the pieces.
 
-This thinking was further solidified as the commandments are
-increasingly getting similar to the design recipes which I find to be
-much more elaborate and helpful towards devising the recursion patterns.
+  This thinking was further solidified as the commandments are
+  increasingly getting similar to the design recipes which I find to be
+  much more elaborate and helpful towards devising the recursion patterns.
 
-I think one of the funny challenges to commit to since I feel that the
-exercises are of the same kind as HTDP is to never fall into an
-infinite recursion. Or at least count the number of times that I have
-fallen into an infinite recursion. This is a result of not paying due
-notice on the recursion on my part.
+  I think one of the funny challenges to commit to since I feel that the
+  exercises are of the same kind as HTDP is to never fall into an
+  infinite recursion. Or at least count the number of times that I have
+  fallen into an infinite recursion. This is a result of not paying due
+  notice on the recursion on my part.
 
-Current Count: 0
-<2015-09-04 Fri 23:02>
+  Current Count: 0
+  <2015-09-04 Fri 23:02>
 
-Infinity Count: 1
-Passed in the same list on the last recursion on subst.
-<2015-09-05 Sat 04:15>
+  Infinity Count: 1
+  Passed in the same list on the last recursion on subst.
+  <2015-09-05 Sat 04:15>
 
-Infinity Count: 2
-Passed in the same list on the last recursion on multiinsertR.
-<2015-09-05 Sat 04:27>
+  Infinity Count: 2
+  Passed in the same list on the last recursion on multiinsertR.
+  <2015-09-05 Sat 04:27>
 
 * Log
 
 ** Daily
-#+BEGIN: clocktable :maxlevel 2 :scope subtree
-#+CAPTION: Clock summary at [2015-09-05 Sat 04:34]
-| Headline     | Time   |      |
-|--------------+--------+------|
-| *Total time* | *4:00* |      |
-|--------------+--------+------|
-| \_  Daily    |        | 4:00 |
-#+END:
+   #+BEGIN: clocktable :maxlevel 2 :scope subtree
+   #+CAPTION: Clock summary at [2015-09-05 Sat 20:25]
+   | Headline     | Time   |      |
+   |--------------+--------+------|
+   | *Total time* | *4:30* |      |
+   |--------------+--------+------|
+   | \_  Daily    |        | 4:30 |
+   #+END:
 
 *** 5 September 2015 (45 - 57)
-
     :LOGBOOK:
+    CLOCK: [2015-09-05 Sat 19:58]--[2015-09-05 Sat 20:28] =>  0:30
+    68
+
     CLOCK: [2015-09-05 Sat 03:58]--[2015-09-05 Sat 04:28] =>  0:30
     57
     :END:
@@ -69,70 +73,68 @@ Passed in the same list on the last recursion on multiinsertR.
 *** 3 September 2015 - 2 (7 -18)
     :LOGBOOK:
 
-    CLOCK: [2015-09-03 Thu 15:39]--[2015-09-03 Thu 16:09] =>  0:30
-    18
+CLOCK: [2015-09-03 Thu 15:39]--[2015-09-03 Thu 16:09] =>  0:30
+18
 
-    CLOCK: [2015-09-03 Thu 12:36]--[2015-09-03 Thu 13:06] =>  0:30
-    11
+CLOCK: [2015-09-03 Thu 12:36]--[2015-09-03 Thu 13:06] =>  0:30
+11
 
     :END:
 
 *** 2 September 2015 - 3 (0 - 7)
     :LOGBOOK:
 
-    CLOCK: [2015-09-02 Wed 19:42]--[2015-09-02 Wed 20:12] =>  0:30
-    7
+CLOCK: [2015-09-02 Wed 19:42]--[2015-09-02 Wed 20:12] =>  0:30
+7
 
-    CLOCK: [2015-09-02 Wed 19:12]--[2015-09-02 Wed 19:42] =>  0:30
-    3
+CLOCK: [2015-09-02 Wed 19:12]--[2015-09-02 Wed 19:42] =>  0:30
+3
 
-    CLOCK: [2015-09-02 Wed 18:33]--[2015-09-02 Wed 19:03] =>  0:30
-    Front Matter
+CLOCK: [2015-09-02 Wed 18:33]--[2015-09-02 Wed 19:03] =>  0:30
+Front Matter
 
     :END:
 
-
 ** Chapterwise
    
-Frontmatter - 2
+   Frontmatter - 2
 
-Chapter 1: Toys - 2.5
+   Chapter 1: Toys - 2.5
 
-Chapter 2: Do It, Do It Again, and Again, and Again ... - 1
+   Chapter 2: Do It, Do It Again, and Again, and Again ... - 1
 
-Chapter 3: Cons the Magnificent - 2.5
+   Chapter 3: Cons the Magnificent - 2.5
 
-Chapter 4: Numbers Games
+   Chapter 4: Numbers Games
 
-Chapter 5: *Oh My Gawd*: It's Full of Stars
+   Chapter 5: *Oh My Gawd*: It's Full of Stars
 
-Chapter 6: Shadows
+   Chapter 6: Shadows
 
-Chapter 7: Friends and Relations
+   Chapter 7: Friends and Relations
 
-Chapter 8: Lambda the Ultimate
+   Chapter 8: Lambda the Ultimate
 
-Chapter 9: ... and Again, and Again, and Again, ...
+   Chapter 9: ... and Again, and Again, and Again, ...
 
-Chapter 10: What is the Value of All of This?
+   Chapter 10: What is the Value of All of This?
 
-Intermission
+   Intermission
 
 ** Estimate
 
-<2015-09-02 Wed 20:13> - 350 Pomodoros <- <2015-09-04 Fri 22:58> This
-was seemingly wrong. I thought this to be another HTDP but looks like
-it's much smaller and almost as fundamental.
+   <2015-09-02 Wed 20:13> - 350 Pomodoros <- <2015-09-04 Fri 22:58> This
+   was seemingly wrong. I thought this to be another HTDP but looks like
+   it's much smaller and almost as fundamental.
 
-<2015-09-03 Thu 13:05> - At the current rate looks like there's a
-chance to end this in 50 Pomodoros. But very unlikely.
+   <2015-09-03 Thu 13:05> - At the current rate looks like there's a
+   chance to end this in 50 Pomodoros. But very unlikely.
 
-<2015-09-04 Fri 22:20> - If the rest of the chapters are as easy as
-the current ones, then I'm looking at a completion time of 75-100 Pomodoros.
+   <2015-09-04 Fri 22:20> - If the rest of the chapters are as easy as
+   the current ones, then I'm looking at a completion time of 75-100 Pomodoros.
 
-<2015-09-04 Fri 22:57> - Current calculation shows that only 20
-Pomodoros remains but that's only if I maintain the current breezing
-rate which is only possible because I'm familiar with the current
-recursion patterns, I have to see how quickly this escalates and to where.
-
+   <2015-09-04 Fri 22:57> - Current calculation shows that only 20
+   Pomodoros remains but that's only if I maintain the current breezing
+   rate which is only possible because I'm familiar with the current
+   recursion patterns, I have to see how quickly this escalates and to where.
 

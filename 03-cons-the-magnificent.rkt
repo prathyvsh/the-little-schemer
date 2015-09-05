@@ -1,4 +1,5 @@
 ;; My definition
+
 (define (rember a lat)
     (cond
     ((null? lat) '())
@@ -251,3 +252,19 @@
 (multiinsertL new old lat)
 
 ;; => '(chips and fried fish or fried fish and fried)
+
+;; My definition
+(define (multisubst new old lat)
+  (cond
+   ((null? lat) '())
+   ((eq? (first lat) old) (cons new (multisubst new old (rest lat))))
+   (else (cons (first lat) (multisubst new old (rest lat))))))
+
+(define old 'fish)
+
+(define new 'octopus)
+
+(define lat '(chips and fish or fish and fried chips))
+
+(multisubst new old lat)
+;; => (chips and octopus or octopus and fried chips)
