@@ -44,16 +44,26 @@
 
 ** Daily
    #+BEGIN: clocktable :maxlevel 2 :scope subtree
-   #+CAPTION: Clock summary at [2015-09-05 Sat 20:25]
+   #+CAPTION: Clock summary at [2015-09-05 Sat 21:00]
    | Headline     | Time   |      |
    |--------------+--------+------|
-   | *Total time* | *4:30* |      |
+   | *Total time* | *5:00* |      |
    |--------------+--------+------|
-   | \_  Daily    |        | 4:30 |
+   | \_  Daily    |        | 5:00 |
    #+END:
 
-*** 5 September 2015 (45 - 57)
+*** 5 September 2015 (45 - 68)
+
+Pomodoros Done: 9
+Pages: 68
+Rate: 68/9
+Remaining Pages: 125
+Pomodoros Remaining: 16.54
+
     :LOGBOOK:
+    CLOCK: [2015-09-05 Sat 20:32]--[2015-09-05 Sat 21:02] =>  0:30
+    76
+
     CLOCK: [2015-09-05 Sat 19:58]--[2015-09-05 Sat 20:28] =>  0:30
     68
 
@@ -62,6 +72,13 @@
     :END:
 
 *** 4 September 2015 - 2 (18 - 45)
+    
+Pomodoros Done: 7
+Pages: 45
+Rate: 45/7
+Remaining Pages: 148
+Pomodoros Remaining: 23.02
+
     :LOGBOOK:
     CLOCK: [2015-09-04 Fri 22:27]--[2015-09-04 Fri 22:57] =>  0:30
     45
@@ -70,7 +87,14 @@
     34
     :END:
 
-*** 3 September 2015 - 2 (7 -18)
+*** 3 September 2015 - 2 (7 - 18)
+
+Pomodoros Done: 5
+Pages: 18
+Rate: 18/5
+Remaining Pages: 175
+Pomodoros Remaining: 48.61
+
     :LOGBOOK:
 
 CLOCK: [2015-09-03 Thu 15:39]--[2015-09-03 Thu 16:09] =>  0:30
@@ -81,7 +105,14 @@ CLOCK: [2015-09-03 Thu 12:36]--[2015-09-03 Thu 13:06] =>  0:30
 
     :END:
 
-*** 2 September 2015 - 3 (0 - 7)
+*** 2 September 2015
+Pomodoros Done: 3
+Pages: 7
+Rate: 7/3
+Remaining Pages: 186
+Pomodoros Remaining: 79.71
+
+
     :LOGBOOK:
 
 CLOCK: [2015-09-02 Wed 19:42]--[2015-09-02 Wed 20:12] =>  0:30
@@ -94,6 +125,7 @@ CLOCK: [2015-09-02 Wed 18:33]--[2015-09-02 Wed 19:03] =>  0:30
 Front Matter
 
     :END:
+
 
 ** Chapterwise
    
@@ -138,3 +170,5 @@ Front Matter
    rate which is only possible because I'm familiar with the current
    recursion patterns, I have to see how quickly this escalates and to where.
 
+   <2015-09-05 Sat 20:29> - Current rate shows only 16 or so pomodoros
+   is required. But I'm thinking that at least 30 would be needed.
