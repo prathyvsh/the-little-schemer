@@ -216,3 +216,7 @@
 (eq? (first l) (first (rest l)))
 ;; => #t
 ;; Because it compares the first and second atoms in the list.
+
+
+;; Summary
+;; Pretty basic a start.

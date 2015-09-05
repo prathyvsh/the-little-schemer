@@ -138,3 +138,116 @@
 ;; (firsts (cdr l)) ; natural recursion
 
 
+;; My definition
+(define (insertR new old lat)
+  (cond
+   ((null? lat) '())
+   ((eq? (first lat) old) (cons (first lat) (cons new (rest lat))))
+   (else (cons (first lat) (insertR new old (rest lat))))))
+
+(insertR 'jalapeno 'and '(tacos tamales and salsa))
+;; => '(tacos tamales and jalapeno salsa)
+
+(define new 'e)
+
+(define old 'd)
+
+(define lat '(a b c d f g d h))
+
+(insertR new old lat)
+
+;; => '(a b c d e f g d h)
+
+;; InsertR inserts new to the right of old, if old is present in the lat.
+
+
+(define new 'topping)
+
+(define old 'fudge)
+
+(define lat '(ice cream with fudge for dessert))
+
+(insertR new old lat)
+;; => '(ice cream with fudge topping for dessert)
+
+;; My attempt
+(define (insertL new old lat)
+  (cond
+   ((null? lat) '())
+   ((eq? (first lat) old) (cons new lat))
+   (else (cons (first lat) (insertL new old (rest lat))))))
+
+(insertL new old lat)
+;; => '(ice cream with topping fudge for dessert)
+
+(define (subst new old lat)
+  (cond
+   ((null? lat) '())
+   ((eq? (first lat) old) (cons new (rest lat)))
+   (else (cons (first lat) (subst new old (rest lat))))))
+
+(subst new old lat)
+;; => '(ice cream with topping for dessert)
+
+(define (subst2 new o1 o2 lat)
+  (cond
+   ((null? lat) '())
+   ((or (eq? (first lat) o1)
+       (eq? (first lat) o2)) (cons new (rest lat)))
+   (else (cons (first lat) (subst2 new o1 o2 (rest lat))))))
+
+(define new 'vanilla)
+
+(define o1 'chocolate)
+
+(define o2 'banana)
+
+(define lat '(banana ice cream with chocolate topping))
+
+(subst2 new o1 o2 lat)
+;; => '(vanilla ice cream with chocolate topping)
+
+(define (multirember a lat)
+  (cond
+   ((null? lat) '())
+   ((eq? a (first lat)) (multirember a (rest lat)))
+   (else (cons (first lat) (multirember a (rest lat))))))
+
+(define a 'cup)
+
+(define lat '(coffee cup tea cup and hick cup))
+
+(multirember a lat)
+;; => '(coffee tea and hick)
+  
+(define (multiinsertR new old lat)
+  (cond
+   ((null? lat) '())
+   ((eq? (first lat) old) (cons (first lat) (cons new (multiinsertR new old (rest lat)))))
+   (else (cons (first lat) (multiinsertR new old (rest lat))))))
+
+(define new 'and)
+
+(define old 'cup)
+
+(define lat '(coffee cup tea cup and hick cup))
+
+(multiinsertR new old lat)
+
+;; => '(coffee cup and tea cup and and hick cup and)
+
+(define (multiinsertL new old lat)
+  (cond
+   ((null? lat) '())
+   ((eq? (first lat) old) (cons new (cons old (multiinsertL new old (rest lat)))))
+   (else (cons (first lat) (multiinsertL new old (rest lat))))))
+
+(define new 'fried)
+
+(define old 'fish)
+
+(define lat '(chips and fish or fish and fried))
+
+(multiinsertL new old lat)
+
+;; => '(chips and fried fish or fried fish and fried)

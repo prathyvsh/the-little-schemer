@@ -97,3 +97,6 @@
 
 (member? a lat)
 ;; => #f
+
+;; Summary
+;; Like the way the concepts were introduced. Was a bit too thorough for someone who has had prior experience.
