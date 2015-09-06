@@ -44,19 +44,32 @@
 ** Daily
 
    #+BEGIN: clocktable :maxlevel 2 :scope subtree
-   #+CAPTION: Clock summary at [2015-09-06 Sun 17:47]
+   #+CAPTION: Clock summary at [2015-09-06 Sun 19:30]
    | Headline     | Time   |      |
    |--------------+--------+------|
-   | *Total time* | *5:30* |      |
+   | *Total time* | *6:30* |      |
    |--------------+--------+------|
-   | \_  Daily    |        | 5:30 |
+   | \_  Daily    |        | 6:30 |
    #+END:
 
-*** 6 September 2015 - (76 - 80)
-    :LOGBOOK:
-    CLOCK: [2015-09-06 Sun 17:22]--[2015-09-06 Sun 17:52] =>  0:30
-    :END:
+*** 6 September 2015 - (76 - 92)
+Pomodoros Done: 12
+Pages: 92
+Rate: 92/13
+Remaining Pages: 101
+Pomodoros Remaining: 14.27
 
+    :LOGBOOK:
+    CLOCK: [2015-09-06 Sun 19:04]--[2015-09-06 Sun 19:34] =>  0:30
+
+    CLOCK: [2015-09-06 Sun 18:28]--[2015-09-06 Sun 18:58] =>  0:30
+    86
+
+    CLOCK: [2015-09-06 Sun 17:22]--[2015-09-06 Sun 17:52] =>  0:30
+    80
+
+    :END:
+    
 *** 5 September 2015 - 3 (45 - 76)
 Pomodoros Done: 10
 Pages: 76
@@ -170,3 +183,11 @@ Front Matter
 
    <2015-09-05 Sat 20:29> - Current rate shows only 16 or so pomodoros
    is required. But I'm thinking that at least 30 would be needed.
+
+   <2015-09-06 Sun 19:30> - Things are requiring more effort because
+   it requires more thought, but I think it's going to get easier. If
+   all the chapters are as demanding, then I'm looking at a completion
+   under 80 pomodoros, otherwise if it goes as easy before it's a < 40
+   pomodoros job. But anywhere between 20 - 40 hours looks very likely.
+
+
