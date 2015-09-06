@@ -38,29 +38,39 @@
   Infinity Count: 2
   Passed in the same list on the last recursion on multiinsertR.
   <2015-09-05 Sat 04:27>
+  
+The fifth chapter has been highly effective. It talks about good
+practices of software engineering as well as it get's to the
+end. Prove it right, then think about connecting them, otherwise you
+are asking for a world of pain. Because you now have to track down
+where the error occurred by climbing up/down a ladder of abstraction.
 
 * Log 
 
 ** Daily
 
    #+BEGIN: clocktable :maxlevel 2 :scope subtree
-   #+CAPTION: Clock summary at [2015-09-06 Sun 19:30]
+   #+CAPTION: Clock summary at [2015-09-06 Sun 20:05]
    | Headline     | Time   |      |
    |--------------+--------+------|
-   | *Total time* | *6:30* |      |
+   | *Total time* | *7:00* |      |
    |--------------+--------+------|
-   | \_  Daily    |        | 6:30 |
+   | \_  Daily    |        | 7:00 |
    #+END:
 
-*** 6 September 2015 - (76 - 92)
-Pomodoros Done: 12
-Pages: 92
-Rate: 92/13
-Remaining Pages: 101
-Pomodoros Remaining: 14.27
+*** 6 September 2015 - (76 - 99)
+    Pomodoros Done: 14
+    Pages: 99
+    Rate: 99/14
+    Remaining Pages: 94
+    Pomodoros Remaining: 13.29
 
     :LOGBOOK:
+    CLOCK: [2015-09-06 Sun 19:36]--[2015-09-06 Sun 20:06] =>  0:30
+    99
+
     CLOCK: [2015-09-06 Sun 19:04]--[2015-09-06 Sun 19:34] =>  0:30
+    92
 
     CLOCK: [2015-09-06 Sun 18:28]--[2015-09-06 Sun 18:58] =>  0:30
     86
@@ -71,32 +81,32 @@ Pomodoros Remaining: 14.27
     :END:
     
 *** 5 September 2015 - 3 (45 - 76)
-Pomodoros Done: 10
-Pages: 76
-Rate: 76/10
-Remaining Pages: 117
-Pomodoros Remaining: 15.39
+    Pomodoros Done: 10
+    Pages: 76
+    Rate: 76/10
+    Remaining Pages: 117
+    Pomodoros Remaining: 15.39
 
     :LOGBOOK:
 
-    CLOCK: [2015-09-05 Sat 20:32]--[2015-09-05 Sat 21:02] =>  0:30
-    76
+CLOCK: [2015-09-05 Sat 20:32]--[2015-09-05 Sat 21:02] =>  0:30
+76
 
-    CLOCK: [2015-09-05 Sat 19:58]--[2015-09-05 Sat 20:28] =>  0:30
-    68
+CLOCK: [2015-09-05 Sat 19:58]--[2015-09-05 Sat 20:28] =>  0:30
+68
 
-    CLOCK: [2015-09-05 Sat 03:58]--[2015-09-05 Sat 04:28] =>  0:30
-    57
+CLOCK: [2015-09-05 Sat 03:58]--[2015-09-05 Sat 04:28] =>  0:30
+57
 
     :END:
 
 *** 4 September 2015 - 2 (18 - 45)
     
-Pomodoros Done: 7
-Pages: 45
-Rate: 45/7
-Remaining Pages: 148
-Pomodoros Remaining: 23.02
+    Pomodoros Done: 7
+    Pages: 45
+    Rate: 45/7
+    Remaining Pages: 148
+    Pomodoros Remaining: 23.02
 
     :LOGBOOK:
     CLOCK: [2015-09-04 Fri 22:27]--[2015-09-04 Fri 22:57] =>  0:30
@@ -108,11 +118,11 @@ Pomodoros Remaining: 23.02
 
 *** 3 September 2015 - 2 (7 - 18)
 
-Pomodoros Done: 5
-Pages: 18
-Rate: 18/5
-Remaining Pages: 175
-Pomodoros Remaining: 48.61
+    Pomodoros Done: 5
+    Pages: 18
+    Rate: 18/5
+    Remaining Pages: 175
+    Pomodoros Remaining: 48.61
 
     :LOGBOOK:
 
@@ -125,12 +135,11 @@ CLOCK: [2015-09-03 Thu 12:36]--[2015-09-03 Thu 13:06] =>  0:30
     :END:
 
 *** 2 September 2015 - 3 (0 - 7)
-Pomodoros Done: 3
-Pages: 7
-Rate: 7/3
-Remaining Pages: 186
-Pomodoros Remaining: 79.71
-
+    Pomodoros Done: 3
+    Pages: 7
+    Rate: 7/3
+    Remaining Pages: 186
+    Pomodoros Remaining: 79.71
 
     :LOGBOOK:
 
@@ -149,13 +158,12 @@ Front Matter
 ** Chapterwise
    
    Frontmatter - 2
-
    Chapter 1: Toys - 2.5
    Chapter 2: Do It, Do It Again, and Again, and Again ... - 1
    Chapter 3: Cons the Magnificent - 3
    Chapter 4: Numbers Games - 2.5
-   Chapter 5: *Oh My Gawd*: It's Full of Stars
-   Chapter 6: Shadows
+   Chapter 5: *Oh My Gawd*: It's Full of Stars - 2.5
+   Chapter 6: Shadows - 0.5
    Chapter 7: Friends and Relations
    Chapter 8: Lambda the Ultimate
    Chapter 9: ... and Again, and Again, and Again, ...
@@ -189,5 +197,3 @@ Front Matter
    all the chapters are as demanding, then I'm looking at a completion
    under 80 pomodoros, otherwise if it goes as easy before it's a < 40
    pomodoros job. But anywhere between 20 - 40 hours looks very likely.
-
-

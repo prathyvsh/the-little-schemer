@@ -170,3 +170,72 @@
          '(banana (()) () (split)))
 ;; => #t
 
+;; An S-exp is either an atom or a list of S-expressions.
+
+(define (equal? s1 s2)
+  (cond
+   ((and (atom? s1)
+         (atom? s2))
+    (eq? s1 s2))
+   ((or (atom? s1)
+        (atom? s2)) #f)
+   (else (eqlist? s1 s2))))
+
+(define (eqlist? l1 l2)
+  (cond
+   ((and (null? l1) (null? l2)) #t)
+   ((or (null? l1) (null? l2)) #f)
+   (else (and (equal? (first l1) (first l2))
+        (eqlist? (rest l1)
+                 (rest l2))))))
+
+(eqlist? '(strawberry ice cream)
+         '(strawberry ice cream))
+;; => #t
+
+(eqlist? '(strawberry ice cream)
+         '(strawberry cream ice))
+;; => #f
+
+(eqlist? '(banana ((split)))
+         '((banana) (split)))
+;; => #f
+
+
+(eqlist? '(beef ((sausage)) (and (soda)))
+         '(beef ((salami)) (and (soda))))
+;; => #f
+
+(eqlist? '(beef ((sausage)) (and (soda)))
+        '(beef ((sausage)) (and (soda))))
+;; => #t
+
+(eqlist? '(banana (()) () (split))
+         '(banana (()) () (split ())))
+;; => #f
+
+(eqlist? '(banana (()) () (split))
+         '(banana (()) () (split)))
+;; => #t
+
+;; Rember with equal?
+(define (rember s l)
+  (cond
+   ((null? l) '())
+   ((equal? s (first l)) (rest l))
+   (else (cons (first l) (rember s (rest l))))))
+
+(rember 'potato '(potato salad))
+;; => '(salad)
+
+;; Design the functions correctly. Then think about
+;; connecting them or using them together.
+
+;; We can start using equal? for all function except
+;; for the functions that made possible the construction
+;; of equal? in the first place such as eqan?.
+
+;; This was a pretty good chapter. This is probably one of the
+;; the best ROIs for a beginner encountering recursion. But from
+;; the perspective of someone who has finished HTDP before,
+;; this is an exercise in re-inforcing the learnings.
