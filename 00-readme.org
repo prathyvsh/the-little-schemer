@@ -1,16 +1,15 @@
 * The Little Schemer 
-
   Daniel P. Friedman and Matthias Felleisen
 
-* Readme
-
+* Readme 
+  
   I'm reading this book after completing HTDP. So consider my writings
-  would have the slant of someone who is looking at it with the
-  perspective of having had some experience with Lisps before. This
-  also means, I'm noticing, that I rush through some of the finger
-  exercises as I'm all too familiar constructing functions of this
-  type already. This was readily apparent in the first few chapters
-  where writing the member? and rember checks were too easy to pull off.
+  as a review of someone who has had some amount experience with Lisps
+  and recursion before. This also means, I'm noticing, that I get
+  impatient and rush through some of the finger exercises as I'm all
+  familiar constructing functions of this type already. This was
+  readily apparent in the first few chapters where writing the member?
+  and rember checks were too easy to pull off.
   
   I'm not sure if it's a subjective opinion, but so far it feels like
   HTDP is a refined version of Little Schemer. This is felt in the way
@@ -40,27 +39,33 @@
   Passed in the same list on the last recursion on multiinsertR.
   <2015-09-05 Sat 04:27>
 
-* Log
+* Log 
 
 ** Daily
+
    #+BEGIN: clocktable :maxlevel 2 :scope subtree
-   #+CAPTION: Clock summary at [2015-09-05 Sat 21:00]
+   #+CAPTION: Clock summary at [2015-09-06 Sun 17:47]
    | Headline     | Time   |      |
    |--------------+--------+------|
-   | *Total time* | *5:00* |      |
+   | *Total time* | *5:30* |      |
    |--------------+--------+------|
-   | \_  Daily    |        | 5:00 |
+   | \_  Daily    |        | 5:30 |
    #+END:
 
-*** 5 September 2015 (45 - 68)
+*** 6 September 2015 - (76 - 80)
+    :LOGBOOK:
+    CLOCK: [2015-09-06 Sun 17:22]--[2015-09-06 Sun 17:52] =>  0:30
+    :END:
 
-Pomodoros Done: 9
-Pages: 68
-Rate: 68/9
-Remaining Pages: 125
-Pomodoros Remaining: 16.54
+*** 5 September 2015 - 3 (45 - 76)
+Pomodoros Done: 10
+Pages: 76
+Rate: 76/10
+Remaining Pages: 117
+Pomodoros Remaining: 15.39
 
     :LOGBOOK:
+
     CLOCK: [2015-09-05 Sat 20:32]--[2015-09-05 Sat 21:02] =>  0:30
     76
 
@@ -69,6 +74,7 @@ Pomodoros Remaining: 16.54
 
     CLOCK: [2015-09-05 Sat 03:58]--[2015-09-05 Sat 04:28] =>  0:30
     57
+
     :END:
 
 *** 4 September 2015 - 2 (18 - 45)
@@ -105,7 +111,7 @@ CLOCK: [2015-09-03 Thu 12:36]--[2015-09-03 Thu 13:06] =>  0:30
 
     :END:
 
-*** 2 September 2015
+*** 2 September 2015 - 3 (0 - 7)
 Pomodoros Done: 3
 Pages: 7
 Rate: 7/3
@@ -132,27 +138,19 @@ Front Matter
    Frontmatter - 2
 
    Chapter 1: Toys - 2.5
-
    Chapter 2: Do It, Do It Again, and Again, and Again ... - 1
-
-   Chapter 3: Cons the Magnificent - 2.5
-
-   Chapter 4: Numbers Games
-
+   Chapter 3: Cons the Magnificent - 3
+   Chapter 4: Numbers Games - 2.5
    Chapter 5: *Oh My Gawd*: It's Full of Stars
-
    Chapter 6: Shadows
-
    Chapter 7: Friends and Relations
-
    Chapter 8: Lambda the Ultimate
-
    Chapter 9: ... and Again, and Again, and Again, ...
-
    Chapter 10: What is the Value of All of This?
 
    Intermission
 
+   
 ** Estimate
 
    <2015-09-02 Wed 20:13> - 350 Pomodoros <- <2015-09-04 Fri 22:58> This

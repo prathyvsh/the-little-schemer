@@ -305,3 +305,88 @@ add1 is equivalent of cons for numbers.
 (pick 0 '(a))
 ;; Infinite loop because the termination condition is at 1
 
+(define (rempick n lat)
+  (cond
+   ((= n 1) (rest lat))
+   (else (cons (first lat) (rempick (sub1 n) (rest lat))))))
+
+(rempick 3 '(hotdogs with hot mustard))
+;; => '(hotdogs with mustard)
+
+(number? 'tomato)
+;; => #f
+
+(number? 76)
+;; => #t
+
+;; number? add1, sub1, zero?, car, cdr, cons, null?, eq?, and atom? are
+;; primitive functions.
+
+;; My definition
+(define (no-nums lat)
+  (cond
+   ((null? lat) '())
+   ((number? (first lat)) (no-nums (rest lat)))
+   (else (cons (first lat) (no-nums (rest lat))))))
+
+(no-nums '(5 pears 6 prunes 9 dates))
+;; => '(pears prunes dates)
+
+;; My definition
+(define (all-nums lat)
+  (cond
+   ((null? lat) '())
+   ((number? (first lat)) (cons (first lat) (all-nums (rest lat))))
+   (else (all-nums (rest lat)))))
+
+(all-nums '(5 pears 6 prunes 9 dates))
+;; => '(5 6 9)
+
+;; My definition
+(define (eqan? a1 a2)
+  (cond
+   ((and (number? a1) (number? a2)) (= a1 a2))
+   ((or (number? a1) (number? a2)) #f)
+   (else (eq? a1 a2))))
+
+(eqan? 'potato 'potato)
+;; => #t
+
+(eqan? 'potato 'tomato)
+;; => #f
+
+(eqan? 2 3)
+;; => #f
+
+(eqan? 3 3)
+;; => #t
+
+(eqan? 'potato 3)
+;; => #f
+
+
+;; My definition
+(define (occur a lat)
+  (cond
+   ((null? lat) 0)
+   ((eq? a (first lat)) (add1 (occur a (rest lat))))
+   (else (occur a (rest lat)))))
+
+(occur 'potato '(potato sandwich))
+
+;; My definition
+(define (one? n) (= n 1))
+
+(one? 1)
+;; => #t
+
+(one? 3)
+;; => #f
+
+(define (rempick n lat)
+  (cond
+   ((one? n) (first lat))
+   (else (rempick (sub1 n) (rest lat)))))
+
+(rempick 3 '(potato and tomato salad))
+;; => #tomato
