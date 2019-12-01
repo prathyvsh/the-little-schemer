@@ -33,8 +33,8 @@
 ;; authors devised a continuous check based on
 ;; control flow rather than accumulating
 ;; as I did with the case of and.
+
 ;; Doubts:
-;; Is it more beautiful than my definition?
 ;; Is it more performant?
 
 (lat? '(bacon and eggs))

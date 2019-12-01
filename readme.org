@@ -10,53 +10,72 @@
   familiar constructing functions of this type already. This was
   readily apparent in the first few chapters where writing the member?
   and rember checks were too easy to pull off.
-  
-  I'm not sure if it's a subjective opinion, but so far it feels like
+
+  I'm not sure if it is a subjective opinion, but so far it feels like
   HTDP is a refined version of Little Schemer. This is felt in the way
-  the topics are introduced. TLS is introducing it in a first principles
-  manner and leaving a lot of thought and figuring out how to work with
-  the pieces to the programmer whereas, I felt HTDP recipes went a step
-  further in defining the patterns that help you operate with the pieces.
+  the topics are introduced. TLS is introducing it in a first
+  principles manner and leaving a lot of room for thought and figuring
+  out the how to work with the pieces to the programmer whereas, I
+  felt HTDP recipes went a step further in defining the patterns that
+  help you operate with the pieces.
 
   This thinking was further solidified as the commandments are
   increasingly getting similar to the design recipes which I find to be
   much more elaborate and helpful towards devising the recursion patterns.
 
-  I think one of the funny challenges to commit to since I feel that the
-  exercises are of the same kind as HTDP is to never fall into an
-  infinite recursion. Or at least count the number of times that I have
-  fallen into an infinite recursion. This is a result of not paying due
-  notice on the recursion on my part.
-
-  Current Count: 0
-  <2015-09-04 Fri 23:02>
-
-  Infinity Count: 1
-  Passed in the same list on the last recursion on subst.
-  <2015-09-05 Sat 04:15>
-
-  Infinity Count: 2
-  Passed in the same list on the last recursion on multiinsertR.
-  <2015-09-05 Sat 04:27>
   
-The fifth chapter has been highly effective. It talks about good
-practices of software engineering as well as it get's to the
-end. Prove it right, then think about connecting them, otherwise you
-are asking for a world of pain. Because you now have to track down
-where the error occurred by climbing up/down a ladder of abstraction.
+** Chapter 1
+** Chapter 2
+** Chapter 3
+** Chapter 4
+  
+** Chapter 5
+
+  The fifth chapter has been highly effective. It talks about good
+  practices of software engineering as well as it get's to the
+  end. Prove it right, then think about connecting them, otherwise you
+  are asking for a world of pain. Because you now have to track down
+  where the error occurred by climbing up/down a ladder of abstraction.
+  
+  The way mutual recursion is introduced is in a way that it feels
+  natural to employ it. But undecided if this way of approaching it
+  without naming the pattern is a good method of teaching it.
+
+  
+* Log II
+  
+The aim is to finish the book by end of this year.
+  
+** 1 December 2019
+   
+*** 21
+   CLOCK: [2019-12-01 Sun 19:27]--[2019-12-01 Sun 19:57] =>  0:30
+
 
 * Log 
 
 ** Daily
 
    #+BEGIN: clocktable :maxlevel 2 :scope subtree
-   #+CAPTION: Clock summary at [2015-09-06 Sun 20:05]
+   #+CAPTION: Clock summary at [2015-09-09 Wed 23:12]
    | Headline     | Time   |      |
    |--------------+--------+------|
-   | *Total time* | *7:00* |      |
+   | *Total time* | *7:30* |      |
    |--------------+--------+------|
-   | \_  Daily    |        | 7:00 |
+   | \_  Daily    |        | 7:30 |
    #+END:
+
+*** 9 September 2015 (99-100)
+
+    :LOGBOOK:
+
+    CLOCK: [2015-09-09 Wed 22:32]--[2015-09-09 Wed 23:02] =>  0:30
+    100
+
+    :END:
+
+*** 8 September 2015 - (99)
+*** 7 September 2015 - (99)
 
 *** 6 September 2015 - (76 - 99)
     Pomodoros Done: 14
@@ -154,6 +173,7 @@ Front Matter
 
     :END:
 
+    
 
 ** Chapterwise
    
@@ -197,3 +217,6 @@ Front Matter
    all the chapters are as demanding, then I'm looking at a completion
    under 80 pomodoros, otherwise if it goes as easy before it's a < 40
    pomodoros job. But anywhere between 20 - 40 hours looks very likely.
+
+   <2019-11-18 Mon 03:57> There was a long break in the continuum. But
+   back on it now.

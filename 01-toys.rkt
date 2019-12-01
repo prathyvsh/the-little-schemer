@@ -47,6 +47,7 @@
 
 (list '())
 ;; => #t
+
 ;; Special S-expression called null (or empty) list.
 
 (symbol? '())
@@ -71,41 +72,39 @@
 ;; The Law of Car
 ;; The primitive car is defined only for non-empty lists.
 
-(first '(((hotdogs)) (and) (pickle) (relish)))
-;; => '((hotdogs))
-;; List of lists.
+(car '(((hotdogs)) (and) (pickle) (relish)))
 
-(first (first '(((hotdogs)) (and))))
+(car (car '(((hotdogs)) (and))))
 ;; => '(hotdogs)
 
-(rest '(a b c))
+(cdr '(a b c))
 ;; => '(b c)
 
-(rest '((a b c) x y z))
+(cdr '((a b c) x y z))
 ;; => '(x y z)
 
-(rest '(hamburger))
+(cdr '(hamburger))
 ;; => '()
 
-(rest '((x) t r))
+(cdr '((x) t r))
 ;; => '(t r)
 
-;; (rest 'hotdogs) and (rest '()) is invalid.
+;; (cdr 'hotdogs) and (cdr '()) is invalid.
 
 ;; The Law of Cdr
 ;; The primitive car is defined only for non-empty lists. The cdr of
 ;; any non-empty list is always another list.
 
-(first (rest '((b) (x y) ((c)))))
+(first (cdr '((b) (x y) ((c)))))
 ;; => '(x y)
 
-(rest (rest '((b) (x y) ((c)))))
+(cdr (cdr '((b) (x y) ((c)))))
 ;; => '(((c)))
 
-;; (rest (first '(a (b (c)) d))) is invalid.
-;; Since (first '(a (b (c)) d)) is 'a and (rest 'a) is invalid.
+;; (cdr (first '(a (b (c)) d))) is invalid.
+;; Since (first '(a (b (c)) d)) is 'a and (cdr 'a) is invalid.
 
-;; first and rest always takes in non-empty lists as arguments.
+;; first and cdr always takes in non-empty lists as arguments.
 
 (cons 'peanut '(butter and jelly))
 ;; => '(peanut butter and jelly)
@@ -131,7 +130,7 @@
 
 (first (cons 'a 'b)) ; => 'a
 
-(rest (cons 'a '(b))) ; => '(b)
+(cdr (cons 'a '(b))) ; => '(b)
 
 ;; (cons 'a 'b) is invalid since 'b is not a list.
 
@@ -144,7 +143,7 @@
 ;; => (cons 'a '(b))
 ;; => '(a b)
 
-(cons 'a (rest '((b) c d)))
+(cons 'a (cdr '((b) c d)))
 ;; => (cons 'a '(c d))
 ;; => '(a c d)
 
@@ -175,18 +174,18 @@
 (atom? (first '(Harry had a heap of apples)))
 ;; => #t
 
-(atom? (rest '(Harry had a heap of apples)))
+(atom? (cdr '(Harry had a heap of apples)))
 ;; => #f
 
-(atom? (rest '(Harry)))
+(atom? (cdr '(Harry)))
 ;; => #f since '() is not an atom
 
-(atom? (first (rest '(swing low sweet cherry oat))))
+(atom? (first (cdr '(swing low sweet cherry oat))))
 ;; => (atom? (first '(low sweet cherry oat)))
 ;; => (atom? 'low)
 ;; => #t
 
-(atom? (first (rest '(swing (low sweet) cherry oat))))
+(atom? (first (cdr '(swing (low sweet) cherry oat))))
 ;; => (atom? (first '((low sweet) cherry oat)))
 ;; => (atom? '(low sweet))
 ;; => #f
@@ -209,12 +208,12 @@
 ;; => #t
 
 
-(eq? (rest '(soured milk)) 'milk)
+(eq? (cdr '(soured milk)) 'milk)
 ;; (eq? '(milk) 'milk)
 ;; => #f
 
 (define l '(beans beans we need jelly beans))
-(eq? (first l) (first (rest l)))
+(eq? (first l) (first (cdr l)))
 ;; => #t
 ;; Because it compares the first and second atoms in the list.
 
