@@ -1,8 +1,6 @@
 * The Little Schemer 
-  Daniel P. Friedman and Matthias Felleisen
+** Daniel P. Friedman and Matthias Felleisen
 
-* Readme 
-  
   I'm reading this book after completing HTDP. So consider my writings
   as a review of someone who has had some amount experience with Lisps
   and recursion before. This also means, I'm noticing, that I get
@@ -24,7 +22,7 @@
   much more elaborate and helpful towards devising the recursion patterns.
 
   
-** Chapter 1
+** [[./01-toys.rkt][Chapter 1]]
 ** Chapter 2
 ** Chapter 3
 ** Chapter 4
