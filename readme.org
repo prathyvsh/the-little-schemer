@@ -18,7 +18,7 @@ Introduces the learner to recursion by using the basic ~lat?~ function which che
 
 ** [[./03-cons-the-magnificent.rkt][Chapter 3]]
 
-Function to remove an item ~rember~ is introduced. This becomes the cite to introduce ~cons~ function which is used to build up results. In the ~rember~ function it is used to retain the elements after a check for equality is performed as in the ~member?~ function introduced in the previous chapter. The chapter gets more evolved as it introduces ~firsts~ and insertion mechanisms ~insertR~ and ~insertL~ are introduced. These are good exercises in building up an intuition for how to traverse and construct and destruct lists.
+Function to remove an item ~rember~ is introduced. This becomes the cite to introduce ~cons~ function which is used to build up results. In the ~rember~ function it is used to retain the elements after a check for equality is performed as in the ~member?~ function introduced in the previous chapter. The chapter gets more evolved as it introduces ~firsts~ and insertion mechanisms ~insertR~ and ~insertL~ are introduced. These are good exercises in building up an intuition for how to traverse and construct and destruct lists. This is proceeded by introducing ~subst~ function, a variant that does optional substitution  and then versions of ~insertL~, ~insertR~, ~rember~, and ~subst~ are written that does these functions to old the matching atoms in a list.
 
 ** Chapter 4
   
@@ -38,7 +38,15 @@ Function to remove an item ~rember~ is introduced. This becomes the cite to intr
 * Log II
   
 The aim is to finish the book by end of this year.
+
+** 2 December 2019
+
+** 52
+  CLOCK: [2019-12-02 Mon 14:11]--[2019-12-02 Mon 14:36] =>  0:30
   
+** 31
+  CLOCK: [2019-12-02 Mon 13:25]--[2019-12-02 Mon 13:55] =>  0:30
+
 ** 1 December 2019
    
 *** 21
