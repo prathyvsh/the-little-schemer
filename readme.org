@@ -75,7 +75,7 @@ The aim is to finish the book by end of this year.
 
     :LOGBOOK:
 
-*** Page 100
+**** Page 100
     =CLOCK: [2015-09-09 Wed 22:32]--[2015-09-09 Wed 23:02] =>  0:30=
     :END:
 
@@ -93,16 +93,16 @@ The aim is to finish the book by end of this year.
     :LOGBOOK:
     
     
-*** Page 99
+**** Page 99
     =CLOCK: [2015-09-06 Sun 19:36]--[2015-09-06 Sun 20:06] =>  0:30=
    
-*** Page 92
+**** Page 92
     =CLOCK: [2015-09-06 Sun 19:04]--[2015-09-06 Sun 19:34] =>  0:30=
     
-*** Page 86
+**** Page 86
     =CLOCK: [2015-09-06 Sun 18:28]--[2015-09-06 Sun 18:58] =>  0:30=
     
-*** Page 80
+**** Page 80
     =CLOCK: [2015-09-06 Sun 17:22]--[2015-09-06 Sun 17:52] =>  0:30=
     
 
@@ -116,14 +116,14 @@ The aim is to finish the book by end of this year.
     Pomodoros Remaining: 15.39
 
     :LOGBOOK:
-*** Page 76
+**** Page 76
 =CLOCK: [2015-09-05 Sat 20:32]--[2015-09-05 Sat 21:02] =>  0:30=
 
-*** Page 68
+**** Page 68
 =CLOCK: [2015-09-05 Sat 19:58]--[2015-09-05 Sat 20:28] =>  0:30=
 
 
-*** Page 57
+**** Page 57
 =CLOCK: [2015-09-05 Sat 03:58]--[2015-09-05 Sat 04:28] =>  0:30=
 
 
@@ -138,10 +138,10 @@ The aim is to finish the book by end of this year.
     Pomodoros Remaining: 23.02
 
     :LOGBOOK:
-*** Page 45
+**** Page 45
     =CLOCK: [2015-09-04 Fri 22:27]--[2015-09-04 Fri 22:57] =>  0:30=
 
-*** Page 34
+**** Page 34
     =CLOCK: [2015-09-04 Fri 21:53]--[2015-09-04 Fri 22:23] =>  0:30=
 
     :END:
@@ -160,7 +160,7 @@ The aim is to finish the book by end of this year.
 =CLOCK: [2015-09-03 Thu 15:39]--[2015-09-03 Thu 16:09] =>  0:30=
 
 
-*** Page 11
+**** Page 11
 =CLOCK: [2015-09-03 Thu 12:36]--[2015-09-03 Thu 13:06] =>  0:30=
 
 
@@ -174,10 +174,10 @@ The aim is to finish the book by end of this year.
     Pomodoros Remaining: 79.71
 
     :LOGBOOK:
-*** Page 7
+**** Page 7
 =CLOCK: [2015-09-02 Wed 19:42]--[2015-09-02 Wed 20:12] =>  0:30=
 
-*** Page 3
+**** Page 3
 =CLOCK: [2015-09-02 Wed 19:12]--[2015-09-02 Wed 19:42] =>  0:30=
 
 *** Front Matter
