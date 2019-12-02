@@ -18,7 +18,9 @@ Introduces the learner to recursion by using the basic ~lat?~ function which che
 
 ** [[./03-cons-the-magnificent.rkt][Chapter 3]]
 
-Function to remove an item ~rember~ is introduced. This becomes the cite to introduce ~cons~ function which is used to build up results. In the ~rember~ function it is used to retain the elements after a check for equality is performed as in the ~member?~ function introduced in the previous chapter. The chapter gets more evolved as it introduces ~firsts~ and insertion mechanisms ~insertR~ and ~insertL~ are introduced. These are good exercises in building up an intuition for how to traverse and construct and destruct lists. This is proceeded by introducing ~subst~ function, a variant that does optional substitution  and then versions of ~insertL~, ~insertR~, ~rember~, and ~subst~ are written that does these functions to old the matching atoms in a list.
+Function to remove an item ~rember~ is introduced. The ~cons~ function is introduced in this context which is used to build up results. In the ~rember~ function, it is used to retain the elements after a check for equality is performed as in the ~member?~ function introduced in the previous chapter.
+
+The chapter gets more evolved as it introduces ~firsts~ and insertion mechanisms ~insertR~ and ~insertL~. These are good exercises in building up an intuition on how to traverse, construct, and destruct lists. This is proceeded by introducing ~subst~ function that substitutes a matching atom with another. A variant of this function that does optional substitution is introduced called ~subst2~. Then ~multiinsertL~, ~multiinsertR~, ~multirember~, and ~multisubst~ are introduced that does what these functions used to do before but now instead of doing it once, it replaces all the matching atoms.
 
 ** Chapter 4
   
