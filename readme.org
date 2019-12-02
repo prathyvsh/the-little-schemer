@@ -206,29 +206,29 @@ The aim is to finish the book by end of this year.
    
 ** Estimate
 
-   <2015-09-02 Wed 20:13> - 350 Pomodoros <- <2015-09-04 Fri 22:58> This
+   =<2019-11-18 Mon 03:57>= There was a long break in the continuum. But
+   back on it now.
+
+   =<2015-09-02 Wed 20:13>= - 350 Pomodoros <- <2015-09-04 Fri 22:58> This
    was seemingly wrong. I thought this to be another HTDP but looks like
    it's much smaller and almost as fundamental.
 
-   <2015-09-03 Thu 13:05> - At the current rate looks like there's a
+   =<2015-09-03 Thu 13:05>= - At the current rate looks like there's a
    chance to end this in 50 Pomodoros. But very unlikely.
 
-   <2015-09-04 Fri 22:20> - If the rest of the chapters are as easy as
+   =<2015-09-04 Fri 22:20>= - If the rest of the chapters are as easy as
    the current ones, then I'm looking at a completion time of 75-100 Pomodoros.
 
-   <2015-09-04 Fri 22:57> - Current calculation shows that only 20
+   =<2015-09-04 Fri 22:57>= - Current calculation shows that only 20
    Pomodoros remains but that's only if I maintain the current breezing
    rate which is only possible because I'm familiar with the current
    recursion patterns, I have to see how quickly this escalates and to where.
 
-   <2015-09-05 Sat 20:29> - Current rate shows only 16 or so pomodoros
+   =<2015-09-05 Sat 20:29>= - Current rate shows only 16 or so pomodoros
    is required. But I'm thinking that at least 30 would be needed.
 
-   <2015-09-06 Sun 19:30> - Things are requiring more effort because
+   =<2015-09-06 Sun 19:30>= - Things are requiring more effort because
    it requires more thought, but I think it's going to get easier. If
    all the chapters are as demanding, then I'm looking at a completion
    under 80 pomodoros, otherwise if it goes as easy before it's a < 40
    pomodoros job. But anywhere between 20 - 40 hours looks very likely.
-
-   <2019-11-18 Mon 03:57> There was a long break in the continuum. But
-   back on it now.
