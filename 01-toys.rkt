@@ -1,7 +1,5 @@
 #lang racket
 
-;; Atom is a string of characters beginning with the letter a.
-
 (or (symbol? 'atom) (symbol? (quote atom)))
 ;; => #t
 

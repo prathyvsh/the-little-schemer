@@ -133,11 +133,10 @@
 (seconds l)
 ;; => '(b d f)
 
-;; There is an identification of the recursion patern detailed.
+;; There is an identification of the recursion pattern detailed.
 ;; (else (cons
 ;; (car (car l)) ; typical element
 ;; (firsts (cdr l)) ; natural recursion
-
 
 ;; My definition
 (define (insertR new old lat)
@@ -160,7 +159,6 @@
 ;; => '(a b c d e f g d h)
 
 ;; InsertR inserts new to the right of old, if old is present in the lat.
-
 
 (define new 'topping)
 
