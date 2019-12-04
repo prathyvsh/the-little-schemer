@@ -22,7 +22,15 @@ Function to remove an item ~rember~ is introduced. The ~cons~ function is introd
 
 The chapter gets more evolved as it introduces ~firsts~ and insertion mechanisms ~insertR~ and ~insertL~. These are good exercises in building up an intuition on how to traverse, construct, and destruct lists. This is proceeded by introducing ~subst~ function that substitutes a matching atom with another. A variant of this function that does optional substitution is introduced called ~subst2~. Then ~multiinsertL~, ~multiinsertR~, ~multirember~, and ~multisubst~ are introduced that does what these functions used to do before but now instead of doing it once, it replaces all the matching atoms.
 
-** Chapter 4
+** [[./04-numbers-games.rkt][Chapter 4]]
+
+The chapter teaches recursion on numbers. It introduces addition, multiplication, the data structure tuple which contains . numbers, and introduces a function for adding elements in a tuple piecewise (~tup+~). This is followed by defining the comparator operators: ~<~, ~>~, and ~=~. And then gets to defining the more tricky exponentiation and division functions.
+
+~length~ and ~pick~ functions are defined that computes the length of a list and picks an element at the given index of the list along with ~rempick~ that removes element at the given length.
+
+A function that removes all the numbers ~no-nums~ is introduced.
+
+~eqan~ a function that checks for equality between two atoms is defined. This  ~occur~ counts the occurences of an atom in a given list. Finally a ~one?~ predicate is defined and it is used to redefine ~rempick~ introduced earlier.
   
 ** Chapter 5
 
@@ -56,7 +64,6 @@ The aim is to finish the book by end of this year.
 *** 21
 
    =CLOCK: [2019-12-01 Sun 19:27]--[2019-12-01 Sun 19:57] =>  0:30=
-
 
 * Log 
 
