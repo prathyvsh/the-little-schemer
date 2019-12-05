@@ -32,7 +32,7 @@ A function that removes all the numbers ~no-nums~ is introduced.
 
 ~eqan~ a function that checks for equality between two atoms is defined. This  ~occur~ counts the occurences of an atom in a given list. Finally a ~one?~ predicate is defined and it is used to redefine ~rempick~ introduced earlier.
   
-** [[./oh-my-gawd-it's-full-of-stars.rkt][Chapter 5: * Oh My Gawd *: It's Full of Stars]]
+** [[./05-oh-my-gawd-it's-full-of-stars.rkt][Chapter 5: * Oh My Gawd *: It's Full of Stars]]
 
   The fifth chapter has been highly effective. It talks about good
   practices of software engineering as well as it gets to the
