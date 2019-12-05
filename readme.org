@@ -35,27 +35,50 @@ A function that removes all the numbers ~no-nums~ is introduced.
 ** Chapter 5
 
   The fifth chapter has been highly effective. It talks about good
-  practices of software engineering as well as it get's to the
-  end. Prove it right, then think about connecting them, otherwise you
-  are asking for a world of pain. Because you now have to track down
-  where the error occurred by climbing up/down a ladder of abstraction.
+  practices of software engineering as well as it gets to the
+  end. It introduces recursive functions that fractally recurses on lists.
   
-  The way mutual recursion is introduced is in a way that it feels
-  natural to employ it. But undecided if this way of approaching it
-  without naming the pattern is a good method of teaching it.
+  ~rember*~, ~insertR*~, ~occur*~, ~subst*~, ~insertL*~, ~member*~ are introduced in this style.
+  
+  ~leftmost~ function is introduced that does a recursive seeking for the first atom in a nested list.
+  
+  Equality checks ~eqlist~ and ~equal~ are defined. These are neat functions.
+  This ~equal~ function is then used to redefine ~rember~ introduced earlier.
+  
+** Chapter 6
 
   
 * Log II
   
 The aim is to finish the book by end of this year.
 
+** 5 December 2019
+
+** 111
+   =CLOCK: [2019-12-05 Thu 17:48]--[2019-12-05 Thu 18:18] =>  0:30=
+  
+** 106
+   =CLOCK: [2019-12-05 Thu 17:18]--[2019-12-05 Thu 17:48] =>  0:30=
+
+** 95
+   =CLOCK: [2019-12-05 Thu 16:48]--[2019-12-05 Thu 17:18] =>  0:30=
+  
+*** 88
+   =CLOCK: [2019-12-05 Thu 15:00]--[2019-12-05 Thu 15:30] =>  0:30=
+  
+** 4 December 2019
+
+*** 81
+   =CLOCK: [2019-12-04 Wed 12:28]--[2019-12-04 Wed 12:58] =>  0:30=
+
+
 ** 2 December 2019
 
-** 52
+*** 52
 
   =CLOCK: [2019-12-02 Mon 14:11]--[2019-12-02 Mon 14:36] =>  0:30=
   
-** 31
+*** 31
 
   =CLOCK: [2019-12-02 Mon 13:25]--[2019-12-02 Mon 13:55] =>  0:30=
 
