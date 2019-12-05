@@ -1,3 +1,19 @@
+#lang racket
+
+(define atom? symbol?)
+
+;; Helper function to check if two lists are equal
+(define (listeq? a b)
+  (cond
+    ((and (null? a) (null? b)) true)
+    ((or (null? a) (null? b)) false)
+    (else (cond
+            ((and (list? (first a)) (list? (first b)))
+             (and (listeq? (first a) (first b))
+                  (listeq? (rest a) (rest b))))
+             ((eq? (first a) (first b)) (listeq? (rest a) (rest b)))
+            (else false)))))
+
 ;; My definition
 (define (rember* a l)
   (cond
@@ -7,13 +23,13 @@
                       (else (cons (first l) (rember* a (rest l))))))
    (else (cons (rember* a (first l)) (rember* a (rest l))))))
 
-(rember* 'cup '((coffee) cup ((tea) cup) (and (hick)) cup))
-;; => ((coffee) ((tea)) (and (hick)))
+(listeq? (rember* 'cup '((coffee) cup ((tea) cup) (and (hick)) cup))
+	 '((coffee) ((tea)) (and (hick))))
 
-(rember* 'sauce '(((tomato sauce))
-                  ((bean) sauce)
-                  (and ((flying)) sauce)))
-;; => (((tomato)) ((bean)) (and ((flying))))
+(listeq? (rember* 'sauce '(((tomato sauce))
+			   ((bean) sauce)
+			   (and ((flying)) sauce)))
+	 (((tomato)) ((bean)) (and ((flying)))))
 
 ;; My definition
 (define (insertR* new old l)
