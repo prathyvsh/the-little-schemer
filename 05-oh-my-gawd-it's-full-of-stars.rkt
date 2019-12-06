@@ -1,6 +1,6 @@
 #lang racket
 
-(define atom? symbol?)
+(define (atom? x) (or (symbol? x) (number? x)))
 
 ;; Helper function to check if two lists are equal
 (define (listeq? a b)

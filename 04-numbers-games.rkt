@@ -1,4 +1,6 @@
-(define atom? (lambda (x) (and (not (pair? x)) (not (null? x)))))
+#lang racket
+
+(define (atom? x) (or (symbol? x) (number? x)))
 
 (atom? 14)
 ;; => #t

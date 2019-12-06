@@ -1,5 +1,5 @@
 
-(define atom? (lambda (x) (and (not (pair? x)) (not (null? x)))))
+(define (atom? x) (or (symbol? x) (number? x)))
 
 ;; lat : list -> boolean
 ;; Checks if a list is constructed out of atoms
