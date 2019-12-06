@@ -233,7 +233,7 @@ The aim is to finish the book by end of this year.
 - Chapter 2: Do It, Do It Again, and Again, and Again ... - 1
 - Chapter 3: Cons the Magnificent - 3
 - Chapter 4: Numbers Games - 2.5
-- Chapter 5: *Oh My Gawd*: It's Full of Stars - 2.5
+- Chapter 5: * Oh My Gawd *: It's Full of Stars - 2.5
 - Chapter 6: Shadows - 0.5
 - Chapter 7: Friends and Relations
 - Chapter 8: Lambda the Ultimate
