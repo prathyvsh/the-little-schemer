@@ -47,6 +47,15 @@ A function that removes all the numbers ~no-nums~ is introduced.
   
 ** [[./06-shadows.rkt][Chapter 6: Shadows]]
 
+Arithmetic operations are introduced in this chapter.
+~numbered~ and ~value~ functions are introduced to check if an expression is completely composed of numbers and extract their numerical values out of them respectively. These functions are then simplified by introducing helper functions that demarcate the positions of the expressions ~1st-sub-exp~, ~2nd-sub-exp~, and ~operator~.
+
+The utility of having expressions designed like this is revealed by showing how to parse an arithmetic expression encoded as an s-expression: ~(+ 1 3)~ in place of it's normal form: ~(1 + 3)~.
+
+The chapter is finished off by showing an alternative representation for numbers instead of numerals using lists. Functions that work for these definitions ~sero?~, ~edd1~, ~zub1!~, and an addition operation on them are respectively defined.
+
+A pitfall of this definition is also shown by pointing out that ~lat?~ defined previously won't work with it.
+
 * Log II
   
 The aim is to finish the book by end of this year.
