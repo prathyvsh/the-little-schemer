@@ -72,11 +72,11 @@ The chapter is finished off by showing an alternative representation for numbers
 
 A pitfall of this definition is also shown by pointing out that ~lat?~ defined previously won't work with it.
 
-* Log II
+* Log II (15)
   
 The aim is to finish the book by end of this year.
 
-** 10 December 2019
+** 10 December 2019 (3)
 
 *** 140
    =CLOCK: [2019-12-10 Tue 12:55]--[2019-12-10 Tue 13:25] =>  0:30=
@@ -87,7 +87,7 @@ The aim is to finish the book by end of this year.
 *** 132
    =CLOCK: [2019-12-10 Tue 10:46]--[2019-12-10 Tue 11:16] =>  0:30=
    
-** 9 December 2019
+** 9 December 2019 (2)
   
 *** 127
    =CLOCK: [2019-12-09 Mon 16:34]--[2019-12-09 Mon 17:04] =>  0:30=
@@ -95,7 +95,7 @@ The aim is to finish the book by end of this year.
 *** 121
    =CLOCK: [2019-12-09 Mon 15:42]--[2019-12-09 Mon 16:12] =>  0:30=
    
-** 6 December 2019
+** 6 December 2019 (2)
   
 *** 118
    =CLOCK: [2019-12-06 Fri 16:02]--[2019-12-06 Fri 16:32] =>  0:30=
@@ -103,7 +103,7 @@ The aim is to finish the book by end of this year.
 *** 114
    =CLOCK: [2019-12-06 Fri 15:28]--[2019-12-06 Fri 15:58] =>  0:30=
 
-** 5 December 2019
+** 5 December 2019 (4)
 
 *** 111
    =CLOCK: [2019-12-05 Thu 17:48]--[2019-12-05 Thu 18:18] =>  0:30=
@@ -117,12 +117,12 @@ The aim is to finish the book by end of this year.
 *** 88
    =CLOCK: [2019-12-05 Thu 15:00]--[2019-12-05 Thu 15:30] =>  0:30=
   
-** 4 December 2019
+** 4 December 2019 (1)
 
 *** 81
    =CLOCK: [2019-12-04 Wed 12:28]--[2019-12-04 Wed 12:58] =>  0:30=
 
-** 2 December 2019
+** 2 December 2019 (2)
 
 *** 52
 
@@ -132,7 +132,7 @@ The aim is to finish the book by end of this year.
 
   =CLOCK: [2019-12-02 Mon 13:25]--[2019-12-02 Mon 13:55] =>  0:30=
 
-** 1 December 2019
+** 1 December 2019 (1)
    
 *** 21
 
@@ -285,6 +285,11 @@ The aim is to finish the book by end of this year.
 
    
 ** Estimate
+   
+   =<2019-12-10 Tue 16:36>= At most this is going to take 10-15
+   pomodoros more. Meaning it takes something like 40 pomodoros to
+   complete the book if were previously familiar with functional
+   programming.
 
    =<2019-11-18 Mon 03:57>= There was a long break in the continuum. But
    back on it now.
@@ -311,4 +316,5 @@ The aim is to finish the book by end of this year.
    it requires more thought, but I think it's going to get easier. If
    all the chapters are as demanding, then I'm looking at a completion
    under 80 pomodoros, otherwise if it goes as easy before it's a < 40
-   pomodoros job. But anywhere between 20 - 40 hours looks very likely.
+   pomodoros job. But anywhere between 20 - 40 hours looks very like
+
