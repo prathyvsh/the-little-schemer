@@ -76,6 +76,36 @@ A pitfall of this definition is also shown by pointing out that ~lat?~ defined p
   
 The aim is to finish the book by end of this year.
 
+** 10 December 2019
+
+*** 140
+   CLOCK: [2019-12-10 Tue 12:55]--[2019-12-10 Tue 13:20] =>  0:25
+  
+*** 137
+   CLOCK: [2019-12-10 Tue 12:21]--[2019-12-10 Tue 12:46] =>  0:25
+  
+*** 132
+   CLOCK: [2019-12-10 Tue 10:46]--[2019-12-10 Tue 11:16] =>  0:30
+   
+
+** 9 December 2019
+  
+*** 127
+   CLOCK: [2019-12-09 Mon 16:34]--[2019-12-09 Mon 16:59] =>  0:25
+  
+*** 121
+   CLOCK: [2019-12-09 Mon 15:42]--[2019-12-09 Mon 16:07] =>  0:25
+   
+
+** 6 December 2019
+  
+*** 118
+   CLOCK: [2019-12-06 Fri 16:02]--[2019-12-06 Fri 16:32] =>  0:30
+  
+*** 114
+   CLOCK: [2019-12-06 Fri 15:28]--[2019-12-06 Fri 15:58] =>  0:30
+  
+
 ** 5 December 2019
 
 ** 111
