@@ -110,11 +110,11 @@
     ((list? exp)
      (cond
        ((eq? (operator-2 exp) '+)
-           (+ (value (1st-sub-exp-2 exp)) (value (2nd-sub-exp exp))))
+           (+ (value-2 (1st-sub-exp-2 exp)) (value (2nd-sub-exp exp))))
        ((eq? (operator-2 exp) '*)
-           (* (value  (1st-sub-exp-2 exp)) (value (2nd-sub-exp exp))))
+           (* (value-2  (1st-sub-exp-2 exp)) (value (2nd-sub-exp exp))))
        ((eq? (operator-2 exp) '^)
-           (^ (value  (1st-sub-exp-2 exp)) (value (2nd-sub-exp exp))))
+           (^ (value-2  (1st-sub-exp-2 exp)) (value (2nd-sub-exp exp))))
        (else false)))
     (else false)))
 

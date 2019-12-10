@@ -46,6 +46,22 @@ A function that removes all the numbers ~no-nums~ is introduced.
   This ~equal~ function is then used to redefine ~rember~ introduced earlier.
   
 ** [[./06-shadows.rkt][Chapter 6: Shadows]]
+   
+** Chapter 7: Friends and Relations
+
+** Chapter 8: Lambda the Ultimate
+   
+This is one of the chapters that has valuable content and new concepts such as currying and continuations in it. It introduces a way to abstract by using functions as values. Functions that were introduced earlier are curried by abstracting the key functions in them.
+~rember-f~, ~eq?-c~, ~insertL-f~, ~insertR-f~, ~insert-g~, ~multirember-f~, ~multiremberT~ are some of them. 
+It shows how some of the functions such as ~subst~ and ~rember~ can be seen as a concrete version of abstract functions.
+
+The chapter also helps the learner by showing how to create sensible helper functions that makes reading code simpler.
+~atom-to-function~ is created to simplify the ~value~ function written earlier.
+
+
+
+   
+This chapter introduces continuations.
 
 * Log II
   

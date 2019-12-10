@@ -149,14 +149,13 @@
 (define (eqlist? l1 l2)
   (cond
    ((and (null? l1) (null? l2)) #t)
-   ((or (null? l1) (null? l2)) #f)
-   (else (cond
-          ((and (atom? (first l1)) (atom? (first l2)))
-           (and (eq? (first l1) (first l2)) (eqlist? (rest l1) (rest l2))))
-          ((and (list? (first l1)) (list? (first l2)))
-           (and (eqlist? (first l1) (first l2)) (eqlist? (rest l1) (rest l2))))
-          (else #f)))))
-         
+   ((and (atom? l1) (atom? l2)) (eqan? l1 l2))
+   ((or (atom? l1) (atom? l2)) false)
+   ((and (atom? (first l1)) (atom? (first l2)))
+    (and (eqan? (first l1) (first l2)) (eqlist? (rest l1) (rest l2))))
+   (else (and (eqlist? (first l1) (first l2))
+	      (eqlist? (rest l1) (rest l2))))))
+	 
 (eqlist? '(strawberry ice cream)
          '(strawberry ice cream))
 ;; => #t
