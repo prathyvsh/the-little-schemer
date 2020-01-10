@@ -7,6 +7,12 @@ So far it feels like HTDP is a refined version of Little Schemer. This is felt i
 
 This thinking was further solidified as the commandments are increasingly getting similar to the design recipes which I find to be much more elaborate and helpful towards devising the recursion patterns. There's more articulation on the part of authors in HTDP when it comes to prescribing design patterns.
 
+I'm ambivalent about the teaching style in this book, I don't think I
+would recommend this as a book for a newbie, but that's where it is
+apparently positioned towards. It has too much holding at times and
+too little at times. This unevenness was okay for me having done a
+fair bit of functional programming but I think it would be bumpy for a
+newcomer.
   
 ** [[./01-toys.rkt][Chapter 1: Toys]]
 
@@ -117,10 +123,69 @@ three had different modes of continuing. First one accumulated data
 simply, second one accumulated data in two differest lists and the
 third one had a continuation points inside the accumulator.
 
+** [[./09-and-again-and-again-and-again.rkt][Chapter 9: ...and Again, and Again, and Again...]]
+
+   The idea of partial and total functions are introduced in this
+   chapter. Partial function are those for which the mapping is only
+   determined for certain inputs to the function, for others, the
+   function it keeps recursing on the input. Total functions have a
+   value defined for all of its inputs.
+   
+   Collatz conjencture, Ackermann function, and the Halting problem is
+   introduced in this chapter. The ~will-stop~ function is used to
+   show that the special form define cannot be used for the halting
+   problem, but it can be described fully.
+   
+** [[./10-what-is-the-value-of-all-this.rkt][Chapter 10: What is the Value of All This?]]
+   This chapter is an attempt at writing a Lisp interpreter in
+   Lisp. The idea of storing the values as a table inside a closure
+   and using it for look up on application is one of the striking
+   lessons of the chapter. One develops a sense for how a programming
+   language can be bootstrapped by getting acquainted with these
+   ideas. This chapter makes you reflect on the meta-layer mechanisms
+   that you have been using to encode the algorithms in the previous
+   chapter. A lot of ideas like shadowing which is reflected in the
+   interpreter as a change in getting the first occurence of a label
+   are left without mention which I think makes it a bit confusing.
+
 
 * Log II (21)
   
 The aim is to finish the book by end of this year.
+
+** 31 December (2)
+
+*** Done
+   =CLOCK: [2019-12-31 Tue 15:34]--[2019-12-31 Tue 16:04] =>  0:30=
+ 
+*** 189
+   =CLOCK: [2019-12-31 Tue 14:48]--[2019-12-31 Tue 15:18] =>  0:30=
+   
+** 27 December (2)
+ 
+*** 184
+   =CLOCK: [2019-12-27 Fri 17:22]--[2019-12-27 Fri 17:52] =>  0:30=
+ 
+*** 180
+   =CLOCK: [2019-12-27 Fri 16:38]--[2019-12-27 Fri 17:08] =>  0:30=
+   
+** 26 December (2)
+ 
+*** 173
+   =CLOCK: [2019-12-26 Thu 21:21]--[2019-12-26 Thu 21:51] =>  0:30=
+ 
+*** 164
+   =CLOCK: [2019-12-26 Thu 18:25]--[2019-12-26 Thu 18:55] =>  0:30=
+   
+** 23 December (1)
+*** 155
+   =CLOCK: [2019-12-23 Mon 22:16]--[2019-12-23 Mon 22:46] =>  0:30=
+   
+** 20 December (1)
+ 
+*** 152
+   =CLOCK: [2019-12-20 Fri 16:19]--[2019-12-20 Fri 16:49] =>  0:30=
+ 
 
 ** 19 December (3)
 
